@@ -29,14 +29,16 @@ This repository contains a Python-based project for implementing and simulating 
    cd Line-Follower
    ```
 2.  **Install required dependencies**: If you're using a virtual environment, activate it first and then install the required libraries:
+   
    ```
     pip install -r requirements.txt
-  ```
+   ```
 3. If `requirements.txt` doesn't exist, install the libraries manually:
+   
    ```
    pip install numpy opencv-python scipy
    ```
-4. **Run the simulation**:
+5. **Run the simulation**:
    - To start the simulation, run the main script: ``` python main.py ``` , The simulation window will open, where you can interact with the robot.
    - To see the real time comparison of both controller, run the controller_comparison script: ``` python controller_comparison.py```.
 
