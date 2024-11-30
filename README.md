@@ -3,7 +3,7 @@
 # Path Planning Project
 
 This repository contains a Python-based project for implementing and simulating path-planning algorithms, including controller comparisons, parameter optimization, and utility functions for visualization.
-![compare](compare.gif)
+
 
 ## Features
 
@@ -56,12 +56,13 @@ Choose between **PID** and **MPC** controllers in the configuration file or simu
 #### PID Controller:
 - Adjust PID parameters in the `car.py` or `controller.py` file to fine-tune the robot's response to path-following errors.
 - Modify the proportional (Kp), integral (Ki), and derivative (Kd) values to improve the robot's accuracy.
-![pid](pid.gif)
+
 #### MPC Controller:
 - Configure the MPC settings in the appropriate file. Parameters to adjust may include:
   - Prediction Horizon
   - Control Horizon
   - Weight Matrices (Q, R)
+
 
 ### 4. Start the Simulation
 
@@ -69,6 +70,13 @@ Choose between **PID** and **MPC** controllers in the configuration file or simu
 - The simulation visualizes the robot's movement along the path, providing real-time feedback on position, speed, and controller performance.
 
 ---
+
+## Video
+
+| **PID**                                          | **MPC**                                          | **Comparison**                                   |
+|--------------------------------------------------|--------------------------------------------------|--------------------------------------------------|
+| ![Test 1](PID.gif)                               | ![Test 2](MPC.gif)                               | ![compare](compare.gif)                          |
+
 
 ## How it Works
 
